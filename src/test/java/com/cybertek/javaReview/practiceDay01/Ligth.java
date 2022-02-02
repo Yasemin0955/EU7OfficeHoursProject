@@ -1,2 +1,7 @@
-package com.cybertek.javaReview.practiceDay01;public class Ligth {
+package com.cybertek.javaReview.practiceDay01;
+
+public abstract  class Ligth {
+    protected String location;
+
+    public abstract void giveLigth();
 }

@@ -1,12 +1,14 @@
 package com.cybertek.javaReview.practiceDay01;
 
-public class TrafficLigth {
+public class TrafficLigth extends Ligth{
    private String color;
 
    public TrafficLigth(String localTime){
-    this.localTime=localTime;
+
+       this.localTime=localTime;
    }
    public TrafficLigth(){
+
 
    }
     public void showColor(){
@@ -27,4 +29,9 @@ public class TrafficLigth {
     }
 
 
+    @Override
+    public void giveLigth() {
+        System.out.println("Showing different ligth colors to arrange traffic ligths ");
+
+    }
 }
